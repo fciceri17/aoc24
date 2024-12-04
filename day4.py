@@ -58,8 +58,6 @@ for i, row in enumerate(data):
         if j == 0 or j == len(row)-1:
             continue
         if v == 'A':
-            ul = False
-            ur = False
             # look up-left and down-right
             if (data[i-1][j-1],data[i+1][j+1]) in [('S', 'M'), ('M', 'S')]:
                 # now up-right and down-left
