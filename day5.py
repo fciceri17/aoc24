@@ -1,5 +1,4 @@
 from collections import defaultdict
-from pickletools import read_uint1
 
 with open('input/day5.txt', 'r') as f:
      data=f.readlines()

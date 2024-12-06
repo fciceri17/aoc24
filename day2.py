@@ -1,4 +1,3 @@
-l1,l2 = [], []
 with open('input/day2.txt', 'r') as f:
      data=f.readlines()
 
